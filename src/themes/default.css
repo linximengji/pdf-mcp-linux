@@ -1,0 +1,41 @@
+/* Default theme — clean, readable, accented */
+body { color: #333; }
+
+/* Heading decorations */
+h1 {
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: .3em;
+}
+h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: .25em;
+}
+h3 { color: #444; }
+
+/* Table header */
+th {
+  background: #eef2f5;
+  color: #1a5276;
+}
+tr:nth-child(even) td { background: #fafbfc; }
+
+/* Code blocks */
+pre {
+  border-left: 3px solid #2980b9;
+  background: #f8f9fa;
+}
+code { color: #c7254e; }
+pre code { color: inherit; }
+
+/* Blockquotes */
+blockquote {
+  border-left-color: #2980b9;
+  background: #f8fafc;
+  color: #555;
+}
+
+/* Links */
+a { color: #2980b9; }
+
+/* Horizontal rule */
+hr { border-top: 1px solid #e0e0e0; }

@@ -1,0 +1,72 @@
+/* Dark theme — high contrast, code-friendly */
+body {
+  background: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #569cd6;
+  border: none;
+}
+h1 {
+  border-bottom: 1px solid #333;
+  padding-bottom: .3em;
+}
+h2 {
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: .25em;
+}
+h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .15em;
+  bottom: .15em;
+  width: 3px;
+  background: #569cd6;
+  border-radius: 2px;
+}
+h3, h4 { color: #9cdcfe; }
+
+/* Links */
+a { color: #4fc1ff; }
+
+/* Tables */
+th {
+  background: #2d2d2d;
+  color: #569cd6;
+  border-color: #3c3c3c;
+}
+td {
+  border-color: #3c3c3c;
+  color: #ccc;
+}
+tr:nth-child(even) td { background: #252525; }
+
+/* Code */
+pre {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-left: 3px solid #569cd6;
+  color: #d4d4d4;
+}
+code {
+  background: #2d2d2d;
+  color: #ce9178;
+}
+pre code { color: #d4d4d4; background: none; }
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid #569cd6;
+  color: #999;
+  background: #1a1a2e;
+  border-radius: 0 4px 4px 0;
+}
+
+/* TOC */
+.toc a { color: #9cdcfe; }
+
+/* HR */
+hr { border-top: 1px solid #333; }
